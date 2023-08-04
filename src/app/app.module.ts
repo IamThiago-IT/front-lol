@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { ClienteComponent } from './cliente/cliente.component';
 import { PedidoComponent } from './pedido/pedido.component';
-import { AppRoutingModule } from './app-routing.module'; // Importe o AppRoutingModule
+import { AppRoutingModule } from './app-routing.module';
+import { AutocadastroComponent } from './autocadastro/autocadastro.component'; // Importe o AppRoutingModule
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { AppRoutingModule } from './app-routing.module'; // Importe o AppRouting
     LoginComponent,
     ClienteComponent,
     PedidoComponent,
+    AutocadastroComponent,
   ],
   imports: [
     BrowserModule,
