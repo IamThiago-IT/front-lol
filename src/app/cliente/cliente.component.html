@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Página Inicial de Cliente</h2>
+  <ul>
+    <li *ngFor="let pedido of pedidosEmAberto">
+      {{ pedido.numeroPedido }} - {{ pedido.descricao }}
+    </li>
+  </ul>
+</div>
