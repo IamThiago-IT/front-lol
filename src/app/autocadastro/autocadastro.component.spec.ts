@@ -8,7 +8,7 @@ describe('AutocadastroComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [AutocadastroComponent]
+      declarations: [AutocadastroComponent],
     });
     fixture = TestBed.createComponent(AutocadastroComponent);
     component = fixture.componentInstance;

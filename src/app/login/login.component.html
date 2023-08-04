@@ -1,5 +1,9 @@
 <div class="container">
   <h2>Login</h2>
+  <!-- Use a classe 'alert' do Bootstrap para estilizar o alerta de erro -->
+  <div class="alert alert-danger" *ngIf="showLoginError">
+    Login falhou. Verifique seus dados de login.
+  </div>
   <form (ngSubmit)="login()" #loginForm="ngForm">
     <div class="form-group">
       <label for="email">E-mail:</label>
