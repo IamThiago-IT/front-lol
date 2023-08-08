@@ -10,6 +10,9 @@ import { LoginComponent } from './login/login.component';
 import { ClienteComponent } from './cliente/cliente.component';
 import { PedidoComponent } from './pedido/pedido.component';
 import { AutocadastroComponent } from './autocadastro/autocadastro.component';
+import { ListaPedidosComponent } from './lista-pedidos/lista-pedidos.component';
+import { ConsultaPedidoComponent } from './consulta-pedido/consulta-pedido.component';
+import { ConfirmarPagamentoComponent } from './confirmar-pagamento/confirmar-pagamento.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +22,9 @@ import { AutocadastroComponent } from './autocadastro/autocadastro.component';
     ClienteComponent,
     PedidoComponent,
     AutocadastroComponent,
+    ListaPedidosComponent,
+    ConsultaPedidoComponent,
+    ConfirmarPagamentoComponent,
   ],
   imports: [
     BrowserModule,
