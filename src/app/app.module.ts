@@ -13,6 +13,8 @@ import { AutocadastroComponent } from './autocadastro/autocadastro.component';
 import { ListaPedidosComponent } from './lista-pedidos/lista-pedidos.component';
 import { ConsultaPedidoComponent } from './consulta-pedido/consulta-pedido.component';
 import { ConfirmarPagamentoComponent } from './confirmar-pagamento/confirmar-pagamento.component';
+import { FuncionarioComponent } from './funcionario/funcionario.component';
+import { ConfirmarRecolhimentoComponent } from './confirmar-recolhimento/confirmar-recolhimento.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { ConfirmarPagamentoComponent } from './confirmar-pagamento/confirmar-pag
     ListaPedidosComponent,
     ConsultaPedidoComponent,
     ConfirmarPagamentoComponent,
+    FuncionarioComponent,
+    ConfirmarRecolhimentoComponent,
   ],
   imports: [
     BrowserModule,

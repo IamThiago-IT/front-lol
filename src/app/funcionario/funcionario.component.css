@@ -1,0 +1,24 @@
+.text-warning {
+    color: yellow;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  
+  .text-muted {
+    color: gray;
+  }
+  
+  .text-primary {
+    color: blue;
+  }
+  
+  .text-orange {
+    color: orange;
+  }
+  
+  .text-success {
+    color: green;
+  }
+  

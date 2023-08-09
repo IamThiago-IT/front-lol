@@ -19,5 +19,10 @@
     <p>Roupas no Pedido: {{ pedidoEncontrado.roupas.join(", ") }}</p>
     <p>Preço Total: R$ {{ pedidoEncontrado.orcamento }}</p>
     <p>Prazo do Serviço: {{ pedidoEncontrado.prazo }} dias</p>
+    <a
+      [routerLink]="['/confirmar-recolhimento', pedidoEncontrado.numero]"
+      class="btn btn-info"
+      >Confirmar Recolhimento</a
+    >
   </div>
 </div>
