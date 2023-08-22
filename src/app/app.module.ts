@@ -15,6 +15,7 @@ import { ConsultaPedidoComponent } from './consulta-pedido/consulta-pedido.compo
 import { ConfirmarPagamentoComponent } from './confirmar-pagamento/confirmar-pagamento.component';
 import { FuncionarioComponent } from './funcionario/funcionario.component';
 import { ConfirmarRecolhimentoComponent } from './confirmar-recolhimento/confirmar-recolhimento.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ConfirmarRecolhimentoComponent } from './confirmar-recolhimento/confirm
     ConfirmarPagamentoComponent,
     FuncionarioComponent,
     ConfirmarRecolhimentoComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
