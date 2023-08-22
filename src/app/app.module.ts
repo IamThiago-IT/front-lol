@@ -17,6 +17,7 @@ import { FuncionarioComponent } from './funcionario/funcionario.component';
 import { ConfirmarRecolhimentoComponent } from './confirmar-recolhimento/confirmar-recolhimento.component';
 import { FooterComponent } from './footer/footer.component';
 import { PecasRoupasComponent } from './pecas-roupas/pecas-roupas.component';
+import { FuncionariosComponent } from './funcionarios/funcionarios.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { PecasRoupasComponent } from './pecas-roupas/pecas-roupas.component';
     ConfirmarRecolhimentoComponent,
     FooterComponent,
     PecasRoupasComponent,
+    FuncionariosComponent,
   ],
   imports: [
     BrowserModule,
