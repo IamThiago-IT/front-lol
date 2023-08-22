@@ -9,6 +9,7 @@ import { ConsultaPedidoComponent } from './consulta-pedido/consulta-pedido.compo
 import { ConfirmarPagamentoComponent } from './confirmar-pagamento/confirmar-pagamento.component';
 import { FuncionarioComponent } from './funcionario/funcionario.component';
 import { ConfirmarRecolhimentoComponent } from './confirmar-recolhimento/confirmar-recolhimento.component';
+import { PecasRoupasComponent } from './pecas-roupas/pecas-roupas.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'autocadastro', component: AutocadastroComponent },
   { path: 'lista-pedidos', component: ListaPedidosComponent },
   { path: 'consulta-pedido', component: ConsultaPedidoComponent },
+  { path: 'pecas-roupas', component: PecasRoupasComponent },
   {
     path: 'confirmar-pagamento/:numero',
     component: ConfirmarPagamentoComponent,

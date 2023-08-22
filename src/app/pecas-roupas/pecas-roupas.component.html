@@ -1,0 +1,17 @@
+<div>
+    <h2>Manutenção de Peças de Roupas</h2>
+    <ul>
+      <li *ngFor="let peca of pecas; let i = index">
+        {{ peca.nome }} - Preço: {{ peca.preco }} - Prazo de Lavagem: {{ peca.prazoLavagem }} dias
+        <button (click)="removerPeca(i)">Remover</button>
+      </li>
+    </ul>
+    <div>
+      <h3>Adicionar Nova Peça</h3>
+      <input [(ngModel)]="novaPeca.nome" placeholder="Nome da Peça">
+      <input [(ngModel)]="novaPeca.preco" placeholder="Preço">
+      <input [(ngModel)]="novaPeca.prazoLavagem" placeholder="Prazo de Lavagem (dias)">
+      <button (click)="adicionarPeca()">Adicionar</button>
+    </div>
+  </div>
+  
