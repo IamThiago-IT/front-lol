@@ -18,6 +18,7 @@ import { ConfirmarRecolhimentoComponent } from './confirmar-recolhimento/confirm
 import { FooterComponent } from './footer/footer.component';
 import { PecasRoupasComponent } from './pecas-roupas/pecas-roupas.component';
 import { FuncionariosComponent } from './funcionarios/funcionarios.component';
+import { RelatorioReceitasComponent } from './relatorio-receitas/relatorio-receitas.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { FuncionariosComponent } from './funcionarios/funcionarios.component';
     FooterComponent,
     PecasRoupasComponent,
     FuncionariosComponent,
+    RelatorioReceitasComponent,
   ],
   imports: [
     BrowserModule,
