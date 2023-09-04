@@ -19,6 +19,8 @@ import { FooterComponent } from './footer/footer.component';
 import { PecasRoupasComponent } from './pecas-roupas/pecas-roupas.component';
 import { FuncionariosComponent } from './funcionarios/funcionarios.component';
 import { RelatorioReceitasComponent } from './relatorio-receitas/relatorio-receitas.component';
+import { RelatorioClientesComponent } from './relatorio-clientes/relatorio-clientes.component';
+import { RelatorioClientesFieisComponent } from './relatorio-clientes-fieis/relatorio-clientes-fieis.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import { RelatorioReceitasComponent } from './relatorio-receitas/relatorio-recei
     PecasRoupasComponent,
     FuncionariosComponent,
     RelatorioReceitasComponent,
+    RelatorioClientesComponent,
+    RelatorioClientesFieisComponent,
   ],
   imports: [
     BrowserModule,
